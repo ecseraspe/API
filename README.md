@@ -1,2 +1,2 @@
 # API
-API for youffer web- works with vitger crm (mysql)
+API for youffer web- works with vtiger crm (mysql)
