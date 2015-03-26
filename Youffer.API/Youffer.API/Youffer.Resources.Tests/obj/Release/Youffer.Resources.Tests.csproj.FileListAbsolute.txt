@@ -1,0 +1,9 @@
+D:\NewProject\Youffer.API\Youffer.Resources.Tests\bin\Release\Youffer.Resources.Tests.dll
+D:\NewProject\Youffer.API\Youffer.Resources.Tests\bin\Release\Youffer.Resources.Tests.pdb
+D:\NewProject\Youffer.API\Youffer.Resources.Tests\obj\Release\Youffer.Resources.Tests.csprojResolveAssemblyReference.cache
+D:\NewProject\Youffer.API\Youffer.Resources.Tests\obj\Release\Youffer.Resources.Tests.dll
+D:\NewProject\Youffer.API\Youffer.Resources.Tests\obj\Release\Youffer.Resources.Tests.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources.Tests\bin\Release\Youffer.Resources.Tests.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources.Tests\bin\Release\Youffer.Resources.Tests.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources.Tests\obj\Release\Youffer.Resources.Tests.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources.Tests\obj\Release\Youffer.Resources.Tests.pdb

@@ -1,0 +1,40 @@
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Sms.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Sms.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Plivo.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\RestSharp.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Common.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.CRM.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Jayrock.Json.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Common.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.CRM.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\bin\Release\EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Sms.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Sms.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Plivo.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\RestSharp.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Common.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.CRM.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Resources.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Jayrock.Json.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\EntityFramework.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Common.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.CRM.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Youffer.Resources.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\bin\Release\EntityFramework.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Sms\obj\Release\Youffer.Sms.pdb

@@ -1,0 +1,42 @@
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll.config
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.pdb
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.dll
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.xml
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\NewProject\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.csprojResolveAssemblyReference.cache
+D:\NewProject\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.dll
+D:\NewProject\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll.config
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll.config
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Youffer.Resources.pdb
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.dll
+C:\Users\Dell\Downloads\Youffer Source Code\Youffer.API\Youffer.API\Youffer.Resources\obj\Release\Youffer.Resources.pdb

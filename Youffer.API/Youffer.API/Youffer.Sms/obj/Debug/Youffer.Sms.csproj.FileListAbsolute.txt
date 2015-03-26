@@ -1,0 +1,40 @@
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Sms.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Sms.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Plivo.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\RestSharp.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Common.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.CRM.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Resources.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Jayrock.Json.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Common.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.CRM.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Resources.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.csprojResolveAssemblyReference.cache
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Sms.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Sms.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Plivo.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\RestSharp.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Common.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.CRM.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Jayrock.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Common.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.CRM.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Youffer.Resources.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Sms\obj\Debug\Youffer.Sms.pdb

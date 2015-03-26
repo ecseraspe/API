@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vtigercrm600Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="vtiger_account">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="int" Nullable="false" />
+    <Property Name="account_no" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="accountname" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="parentid" Type="int" />
+    <Property Name="account_type" Type="varchar" MaxLength="200" />
+    <Property Name="industry" Type="varchar" MaxLength="200" />
+    <Property Name="annualrevenue" Type="decimal" Precision="25" Scale="8" />
+    <Property Name="rating" Type="varchar" MaxLength="200" />
+    <Property Name="ownership" Type="varchar" MaxLength="50" />
+    <Property Name="siccode" Type="varchar" MaxLength="50" />
+    <Property Name="tickersymbol" Type="varchar" MaxLength="30" />
+    <Property Name="phone" Type="varchar" MaxLength="30" />
+    <Property Name="otherphone" Type="varchar" MaxLength="30" />
+    <Property Name="email1" Type="varchar" MaxLength="100" />
+    <Property Name="email2" Type="varchar" MaxLength="100" />
+    <Property Name="website" Type="varchar" MaxLength="100" />
+    <Property Name="fax" Type="varchar" MaxLength="30" />
+    <Property Name="employees" Type="int" />
+    <Property Name="emailoptout" Type="varchar" MaxLength="3" />
+    <Property Name="notify_owner" Type="varchar" MaxLength="3" />
+    <Property Name="isconvertedfromlead" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_accountbillads">
+    <Key>
+      <PropertyRef Name="accountaddressid" />
+    </Key>
+    <Property Name="accountaddressid" Type="int" Nullable="false" />
+    <Property Name="bill_city" Type="varchar" MaxLength="30" />
+    <Property Name="bill_code" Type="varchar" MaxLength="30" />
+    <Property Name="bill_country" Type="varchar" MaxLength="30" />
+    <Property Name="bill_state" Type="varchar" MaxLength="30" />
+    <Property Name="bill_street" Type="varchar" MaxLength="250" />
+    <Property Name="bill_pobox" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="vtiger_accountrating">
+    <Key>
+      <PropertyRef Name="accountratingid" />
+    </Key>
+    <Property Name="accountratingid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rating" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="sortorderid" Type="int" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accountscf">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="int" Nullable="false" />
+    <Property Name="cf_775" Type="text" />
+    <Property Name="cf_777" Type="text" />
+    <Property Name="cf_779" Type="varchar" MaxLength="200" />
+    <Property Name="cf_781" Type="varchar" MaxLength="255" />
+    <Property Name="cf_817" Type="varchar" MaxLength="255" />
+    <Property Name="cf_819" Type="varchar" MaxLength="255" />
+    <Property Name="cf_829" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_831" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_833" Type="varchar" MaxLength="20" />
+    <Property Name="cf_837" Type="varchar" MaxLength="3" />
+    <Property Name="cf_863" Type="varchar" MaxLength="255" />
+    <Property Name="cf_887" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="vtiger_accountshipads">
+    <Key>
+      <PropertyRef Name="accountaddressid" />
+    </Key>
+    <Property Name="accountaddressid" Type="int" Nullable="false" />
+    <Property Name="ship_city" Type="varchar" MaxLength="30" />
+    <Property Name="ship_code" Type="varchar" MaxLength="30" />
+    <Property Name="ship_country" Type="varchar" MaxLength="30" />
+    <Property Name="ship_state" Type="varchar" MaxLength="30" />
+    <Property Name="ship_pobox" Type="varchar" MaxLength="30" />
+    <Property Name="ship_street" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="vtiger_accounttype">
+    <Key>
+      <PropertyRef Name="accounttypeid" />
+    </Key>
+    <Property Name="accounttypeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="accounttype" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="picklist_valueid" Type="int" Nullable="false" />
+    <Property Name="sortorderid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_accounttype_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_accounttype_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_companynotes">
+    <Key>
+      <PropertyRef Name="companynotesid" />
+    </Key>
+    <Property Name="companynotesid" Type="int" Nullable="false" />
+    <Property Name="companynotesno" Type="varchar" MaxLength="100" />
+    <Property Name="companynotes_tks_organisation" Type="varchar" MaxLength="100" />
+    <Property Name="companynotes_tks_contact" Type="varchar" MaxLength="100" />
+    <Property Name="companynotes_tks_note" Type="varchar" MaxLength="250" />
+    <Property Name="companynotes_tks_isdeleted" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_companynotescf">
+    <Key>
+      <PropertyRef Name="companynotesid" />
+    </Key>
+    <Property Name="companynotesid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_contactaddress">
+    <Key>
+      <PropertyRef Name="contactaddressid" />
+    </Key>
+    <Property Name="contactaddressid" Type="int" Nullable="false" />
+    <Property Name="mailingcity" Type="varchar" MaxLength="40" />
+    <Property Name="mailingstreet" Type="varchar" MaxLength="250" />
+    <Property Name="mailingcountry" Type="varchar" MaxLength="40" />
+    <Property Name="othercountry" Type="varchar" MaxLength="30" />
+    <Property Name="mailingstate" Type="varchar" MaxLength="30" />
+    <Property Name="mailingpobox" Type="varchar" MaxLength="30" />
+    <Property Name="othercity" Type="varchar" MaxLength="40" />
+    <Property Name="otherstate" Type="varchar" MaxLength="50" />
+    <Property Name="mailingzip" Type="varchar" MaxLength="30" />
+    <Property Name="otherzip" Type="varchar" MaxLength="30" />
+    <Property Name="otherstreet" Type="varchar" MaxLength="250" />
+    <Property Name="otherpobox" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="vtiger_contactdetails">
+    <Key>
+      <PropertyRef Name="contactid" />
+    </Key>
+    <Property Name="contactid" Type="int" Nullable="false" />
+    <Property Name="contact_no" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="accountid" Type="int" />
+    <Property Name="salutation" Type="varchar" MaxLength="200" />
+    <Property Name="firstname" Type="varchar" MaxLength="40" />
+    <Property Name="lastname" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="100" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+    <Property Name="mobile" Type="varchar" MaxLength="50" />
+    <Property Name="title" Type="varchar" MaxLength="50" />
+    <Property Name="department" Type="varchar" MaxLength="30" />
+    <Property Name="fax" Type="varchar" MaxLength="50" />
+    <Property Name="reportsto" Type="varchar" MaxLength="30" />
+    <Property Name="training" Type="varchar" MaxLength="50" />
+    <Property Name="usertype" Type="varchar" MaxLength="50" />
+    <Property Name="contacttype" Type="varchar" MaxLength="50" />
+    <Property Name="otheremail" Type="varchar" MaxLength="100" />
+    <Property Name="secondaryemail" Type="varchar" MaxLength="100" />
+    <Property Name="donotcall" Type="varchar" MaxLength="3" />
+    <Property Name="emailoptout" Type="varchar" MaxLength="3" />
+    <Property Name="imagename" Type="varchar" MaxLength="150" />
+    <Property Name="reference" Type="varchar" MaxLength="3" />
+    <Property Name="notify_owner" Type="varchar" MaxLength="3" />
+    <Property Name="isconvertedfromlead" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_contactscf">
+    <Key>
+      <PropertyRef Name="contactid" />
+    </Key>
+    <Property Name="contactid" Type="int" Nullable="false" />
+    <Property Name="cf_757" Type="varchar" MaxLength="255" />
+    <Property Name="cf_759" Type="varchar" MaxLength="255" />
+    <Property Name="cf_761" Type="varchar" MaxLength="200" />
+    <Property Name="cf_763" Type="varchar" MaxLength="255" />
+    <Property Name="cf_765" Type="varchar" MaxLength="50" />
+    <Property Name="cf_795" Type="varchar" MaxLength="3" />
+    <Property Name="cf_797" Type="time" Precision="0" />
+    <Property Name="cf_799" Type="time" Precision="0" />
+    <Property Name="cf_815" Type="varchar" MaxLength="255" />
+    <Property Name="cf_821" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_823" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_835" Type="varchar" MaxLength="3" />
+    <Property Name="cf_845" Type="varchar" MaxLength="255" />
+    <Property Name="cf_847" Type="varchar" MaxLength="100" />
+    <Property Name="cf_859" Type="varchar" MaxLength="255" />
+    <Property Name="cf_889" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_contactsubdetails">
+    <Key>
+      <PropertyRef Name="contactsubscriptionid" />
+    </Key>
+    <Property Name="contactsubscriptionid" Type="int" Nullable="false" />
+    <Property Name="homephone" Type="varchar" MaxLength="50" />
+    <Property Name="otherphone" Type="varchar" MaxLength="50" />
+    <Property Name="assistant" Type="varchar" MaxLength="30" />
+    <Property Name="assistantphone" Type="varchar" MaxLength="50" />
+    <Property Name="birthday" Type="date" />
+    <Property Name="laststayintouchrequest" Type="int" />
+    <Property Name="laststayintouchsavedate" Type="int" />
+    <Property Name="leadsource" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="vtiger_lead_view">
+    <Key>
+      <PropertyRef Name="lead_viewid" />
+    </Key>
+    <Property Name="lead_viewid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="lead_view" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="sortorderid" Type="int" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_lead_view_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_lead_view_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadaddress">
+    <Key>
+      <PropertyRef Name="leadaddressid" />
+    </Key>
+    <Property Name="leadaddressid" Type="int" Nullable="false" />
+    <Property Name="city" Type="varchar" MaxLength="30" />
+    <Property Name="code" Type="varchar" MaxLength="30" />
+    <Property Name="state" Type="varchar" MaxLength="30" />
+    <Property Name="pobox" Type="varchar" MaxLength="30" />
+    <Property Name="country" Type="varchar" MaxLength="30" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+    <Property Name="mobile" Type="varchar" MaxLength="50" />
+    <Property Name="fax" Type="varchar" MaxLength="50" />
+    <Property Name="lane" Type="varchar" MaxLength="250" />
+    <Property Name="leadaddresstype" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="vtiger_leaddetails">
+    <Key>
+      <PropertyRef Name="leadid" />
+    </Key>
+    <Property Name="leadid" Type="int" Nullable="false" />
+    <Property Name="lead_no" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="100" />
+    <Property Name="interest" Type="varchar" MaxLength="50" />
+    <Property Name="firstname" Type="varchar" MaxLength="40" />
+    <Property Name="salutation" Type="varchar" MaxLength="200" />
+    <Property Name="lastname" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="company" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="annualrevenue" Type="decimal" Precision="25" Scale="8" />
+    <Property Name="industry" Type="varchar" MaxLength="200" />
+    <Property Name="campaign" Type="varchar" MaxLength="30" />
+    <Property Name="rating" Type="varchar" MaxLength="200" />
+    <Property Name="leadstatus" Type="varchar" MaxLength="50" />
+    <Property Name="leadsource" Type="varchar" MaxLength="200" />
+    <Property Name="converted" Type="int" />
+    <Property Name="designation" Type="varchar" MaxLength="50" />
+    <Property Name="licencekeystatus" Type="varchar" MaxLength="50" />
+    <Property Name="space" Type="varchar" MaxLength="250" />
+    <Property Name="comments" Type="text" />
+    <Property Name="priority" Type="varchar" MaxLength="50" />
+    <Property Name="demorequest" Type="varchar" MaxLength="50" />
+    <Property Name="partnercontact" Type="varchar" MaxLength="50" />
+    <Property Name="productversion" Type="varchar" MaxLength="20" />
+    <Property Name="product" Type="varchar" MaxLength="50" />
+    <Property Name="maildate" Type="date" />
+    <Property Name="nextstepdate" Type="date" />
+    <Property Name="fundingsituation" Type="varchar" MaxLength="50" />
+    <Property Name="purpose" Type="varchar" MaxLength="50" />
+    <Property Name="evaluationstatus" Type="varchar" MaxLength="50" />
+    <Property Name="transferdate" Type="date" />
+    <Property Name="revenuetype" Type="varchar" MaxLength="50" />
+    <Property Name="noofemployees" Type="int" />
+    <Property Name="secondaryemail" Type="varchar" MaxLength="100" />
+    <Property Name="assignleadchk" Type="int" />
+    <Property Name="emailoptout" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_leadscf">
+    <Key>
+      <PropertyRef Name="leadid" />
+    </Key>
+    <Property Name="leadid" Type="int" Nullable="false" />
+    <Property Name="cf_751" Type="time" Precision="0" />
+    <Property Name="cf_753" Type="varchar" MaxLength="255" />
+    <Property Name="cf_767" Type="varchar" MaxLength="3" />
+    <Property Name="cf_769" Type="text" />
+    <Property Name="cf_771" Type="text" />
+    <Property Name="cf_773" Type="varchar" MaxLength="70" />
+    <Property Name="cf_783" Type="date" />
+    <Property Name="cf_785" Type="varchar" MaxLength="255" />
+    <Property Name="cf_787" Type="varchar" MaxLength="255" />
+    <Property Name="cf_789" Type="varchar" MaxLength="200" />
+    <Property Name="cf_791" Type="varchar" MaxLength="255" />
+    <Property Name="cf_793" Type="varchar" MaxLength="20" />
+    <Property Name="cf_803" Type="varchar" MaxLength="3" />
+    <Property Name="cf_807" Type="time" Precision="0" />
+    <Property Name="cf_809" Type="time" Precision="0" />
+    <Property Name="cf_813" Type="varchar" MaxLength="255" />
+    <Property Name="cf_825" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_827" Type="decimal" Precision="65" Scale="2" />
+    <Property Name="cf_849" Type="varchar" MaxLength="255" />
+    <Property Name="cf_851" Type="varchar" MaxLength="100" />
+    <Property Name="cf_861" Type="varchar" MaxLength="255" />
+    <Property Name="cf_885" Type="varchar" MaxLength="3" />
+    <Property Name="cf_891" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_leadsource">
+    <Key>
+      <PropertyRef Name="leadsourceid" />
+    </Key>
+    <Property Name="leadsourceid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="leadsource" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="picklist_valueid" Type="int" Nullable="false" />
+    <Property Name="sortorderid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_leadsource_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_leadsource_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadstage">
+    <Key>
+      <PropertyRef Name="leadstageid" />
+    </Key>
+    <Property Name="leadstageid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="stage" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="sortorderid" Type="int" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadstatus">
+    <Key>
+      <PropertyRef Name="leadstatusid" />
+    </Key>
+    <Property Name="leadstatusid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="leadstatus" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="picklist_valueid" Type="int" Nullable="false" />
+    <Property Name="sortorderid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_leadstatus_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_leadstatus_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadsubdetails">
+    <Key>
+      <PropertyRef Name="leadsubscriptionid" />
+    </Key>
+    <Property Name="leadsubscriptionid" Type="int" Nullable="false" />
+    <Property Name="website" Type="varchar" MaxLength="255" />
+    <Property Name="callornot" Type="int" />
+    <Property Name="readornot" Type="int" />
+    <Property Name="empct" Type="int" />
+  </EntityType>
+  <EntityType Name="vtiger_notes">
+    <Key>
+      <PropertyRef Name="notesid" />
+    </Key>
+    <Property Name="notesid" Type="int" Nullable="false" />
+    <Property Name="note_no" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="filename" Type="varchar" MaxLength="200" />
+    <Property Name="notecontent" Type="text" />
+    <Property Name="folderid" Type="int" Nullable="false" />
+    <Property Name="filetype" Type="varchar" MaxLength="50" />
+    <Property Name="filelocationtype" Type="varchar" MaxLength="5" />
+    <Property Name="filedownloadcount" Type="int" />
+    <Property Name="filestatus" Type="int" />
+    <Property Name="filesize" Type="int" Nullable="false" />
+    <Property Name="fileversion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="vtiger_notescf">
+    <Key>
+      <PropertyRef Name="notesid" />
+    </Key>
+    <Property Name="notesid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_opportunity_type">
+    <Key>
+      <PropertyRef Name="opptypeid" />
+    </Key>
+    <Property Name="opptypeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="opportunity_type" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="picklist_valueid" Type="int" Nullable="false" />
+    <Property Name="sortorderid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_opportunity_type_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_opportunity_type_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_opportunitystage">
+    <Key>
+      <PropertyRef Name="potstageid" />
+    </Key>
+    <Property Name="potstageid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="stage" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="sortorderid" Type="int" Nullable="false" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="probability" Type="decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityType Name="vtiger_org_share_action_mapping">
+    <Key>
+      <PropertyRef Name="share_action_id" />
+    </Key>
+    <Property Name="share_action_id" Type="int" Nullable="false" />
+    <Property Name="share_action_name" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="vtiger_org_share_action2tab">
+    <Key>
+      <PropertyRef Name="share_action_id" />
+      <PropertyRef Name="tabid" />
+    </Key>
+    <Property Name="share_action_id" Type="int" Nullable="false" />
+    <Property Name="tabid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_organizationdetails">
+    <Key>
+      <PropertyRef Name="organization_id" />
+    </Key>
+    <Property Name="organization_id" Type="int" Nullable="false" />
+    <Property Name="organizationname" Type="varchar" MaxLength="60" />
+    <Property Name="address" Type="varchar" MaxLength="150" />
+    <Property Name="city" Type="varchar" MaxLength="100" />
+    <Property Name="state" Type="varchar" MaxLength="100" />
+    <Property Name="country" Type="varchar" MaxLength="100" />
+    <Property Name="code" Type="varchar" MaxLength="30" />
+    <Property Name="phone" Type="varchar" MaxLength="30" />
+    <Property Name="fax" Type="varchar" MaxLength="30" />
+    <Property Name="website" Type="varchar" MaxLength="100" />
+    <Property Name="logoname" Type="varchar" MaxLength="50" />
+    <Property Name="logo" Type="text" />
+    <Property Name="vatid" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_organizationdetails_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_organizationdetails_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklist">
+    <Key>
+      <PropertyRef Name="picklistid" />
+    </Key>
+    <Property Name="picklistid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklist_dependency">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="tabid" Type="int" Nullable="false" />
+    <Property Name="sourcefield" Type="varchar" MaxLength="255" />
+    <Property Name="targetfield" Type="varchar" MaxLength="255" />
+    <Property Name="sourcevalue" Type="varchar" MaxLength="100" />
+    <Property Name="targetvalues" Type="text" />
+    <Property Name="criteria" Type="text" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_picklist_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_picklist_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_picklistvalues_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_picklistvalues_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_potential">
+    <Key>
+      <PropertyRef Name="potentialid" />
+    </Key>
+    <Property Name="potentialid" Type="int" Nullable="false" />
+    <Property Name="potential_no" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="related_to" Type="int" />
+    <Property Name="potentialname" Type="varchar" MaxLength="120" Nullable="false" />
+    <Property Name="amount" Type="decimal" Precision="25" Scale="8" />
+    <Property Name="currency" Type="varchar" MaxLength="20" />
+    <Property Name="closingdate" Type="date" />
+    <Property Name="typeofrevenue" Type="varchar" MaxLength="50" />
+    <Property Name="nextstep" Type="varchar" MaxLength="100" />
+    <Property Name="private" Type="int" />
+    <Property Name="probability" Type="decimal" Precision="7" Scale="3" />
+    <Property Name="campaignid" Type="int" />
+    <Property Name="sales_stage" Type="varchar" MaxLength="200" />
+    <Property Name="potentialtype" Type="varchar" MaxLength="200" />
+    <Property Name="leadsource" Type="varchar" MaxLength="200" />
+    <Property Name="productid" Type="int" />
+    <Property Name="productversion" Type="varchar" MaxLength="50" />
+    <Property Name="quotationref" Type="varchar" MaxLength="50" />
+    <Property Name="partnercontact" Type="varchar" MaxLength="50" />
+    <Property Name="remarks" Type="varchar" MaxLength="50" />
+    <Property Name="runtimefee" Type="int" />
+    <Property Name="followupdate" Type="date" />
+    <Property Name="evaluationstatus" Type="varchar" MaxLength="50" />
+    <Property Name="description" Type="text" />
+    <Property Name="forecastcategory" Type="int" />
+    <Property Name="outcomeanalysis" Type="int" />
+    <Property Name="forecast_amount" Type="decimal" Precision="25" Scale="8" />
+    <Property Name="isconvertedfromlead" Type="varchar" MaxLength="3" />
+    <Property Name="contact_id" Type="int" />
+  </EntityType>
+  <EntityType Name="vtiger_potentialscf">
+    <Key>
+      <PropertyRef Name="potentialid" />
+    </Key>
+    <Property Name="potentialid" Type="int" Nullable="false" />
+    <Property Name="cf_841" Type="varchar" MaxLength="3" />
+    <Property Name="cf_843" Type="varchar" MaxLength="3" />
+    <Property Name="cf_853" Type="varchar" MaxLength="50" />
+    <Property Name="cf_855" Type="varchar" MaxLength="3" />
+    <Property Name="cf_857" Type="varchar" MaxLength="3" />
+    <Property Name="cf_883" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_rating">
+    <Key>
+      <PropertyRef Name="rating_id" />
+    </Key>
+    <Property Name="rating_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rating" Type="varchar" MaxLength="200" />
+    <Property Name="presence" Type="int" Nullable="false" />
+    <Property Name="picklist_valueid" Type="int" Nullable="false" />
+    <Property Name="sortorderid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'vtigercrm600.vtiger_rating_seq' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vtiger_rating_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_reviewforuser">
+    <Key>
+      <PropertyRef Name="reviewforuserid" />
+    </Key>
+    <Property Name="reviewforuserid" Type="int" Nullable="false" />
+    <Property Name="reviewforuserno" Type="varchar" MaxLength="100" />
+    <Property Name="reviewforuser_tks_contact" Type="varchar" MaxLength="100" />
+    <Property Name="reviewforuser_tks_organisation" Type="varchar" MaxLength="100" />
+    <Property Name="reviewforuser_tks_rating" Type="decimal" Precision="10" Scale="5" />
+    <Property Name="reviewforuser_tks_feedbacktext" Type="varchar" MaxLength="250" />
+    <Property Name="reviewforuser_tks_interestname" Type="varchar" MaxLength="255" />
+    <Property Name="reviewforuser_tks_deleted" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="vtiger_reviewforusercf">
+    <Key>
+      <PropertyRef Name="reviewforuserid" />
+    </Key>
+    <Property Name="reviewforuserid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="vtigercrm600ModelStoreContainer">
+    <EntitySet Name="vtiger_account" EntityType="Self.vtiger_account" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accountbillads" EntityType="Self.vtiger_accountbillads" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accountrating" EntityType="Self.vtiger_accountrating" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accountscf" EntityType="Self.vtiger_accountscf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accountshipads" EntityType="Self.vtiger_accountshipads" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accounttype" EntityType="Self.vtiger_accounttype" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_companynotes" EntityType="Self.vtiger_companynotes" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_companynotescf" EntityType="Self.vtiger_companynotescf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_contactaddress" EntityType="Self.vtiger_contactaddress" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_contactdetails" EntityType="Self.vtiger_contactdetails" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_contactscf" EntityType="Self.vtiger_contactscf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_contactsubdetails" EntityType="Self.vtiger_contactsubdetails" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_lead_view" EntityType="Self.vtiger_lead_view" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadaddress" EntityType="Self.vtiger_leadaddress" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leaddetails" EntityType="Self.vtiger_leaddetails" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadscf" EntityType="Self.vtiger_leadscf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadsource" EntityType="Self.vtiger_leadsource" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadstage" EntityType="Self.vtiger_leadstage" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadstatus" EntityType="Self.vtiger_leadstatus" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_leadsubdetails" EntityType="Self.vtiger_leadsubdetails" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_notes" EntityType="Self.vtiger_notes" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_notescf" EntityType="Self.vtiger_notescf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_opportunity_type" EntityType="Self.vtiger_opportunity_type" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_opportunitystage" EntityType="Self.vtiger_opportunitystage" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_org_share_action_mapping" EntityType="Self.vtiger_org_share_action_mapping" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_org_share_action2tab" EntityType="Self.vtiger_org_share_action2tab" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_organizationdetails" EntityType="Self.vtiger_organizationdetails" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_picklist" EntityType="Self.vtiger_picklist" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_picklist_dependency" EntityType="Self.vtiger_picklist_dependency" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_potential" EntityType="Self.vtiger_potential" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_potentialscf" EntityType="Self.vtiger_potentialscf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_rating" EntityType="Self.vtiger_rating" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_reviewforuser" EntityType="Self.vtiger_reviewforuser" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_reviewforusercf" EntityType="Self.vtiger_reviewforusercf" Schema="vtigercrm600" store:Type="Tables" />
+    <EntitySet Name="vtiger_accounttype_seq" EntityType="Self.vtiger_accounttype_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_accounttype_seq`.`id`
+FROM `vtiger_accounttype_seq` AS `vtiger_accounttype_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_lead_view_seq" EntityType="Self.vtiger_lead_view_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_lead_view_seq`.`id`
+FROM `vtiger_lead_view_seq` AS `vtiger_lead_view_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_leadsource_seq" EntityType="Self.vtiger_leadsource_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_leadsource_seq`.`id`
+FROM `vtiger_leadsource_seq` AS `vtiger_leadsource_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_leadstatus_seq" EntityType="Self.vtiger_leadstatus_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_leadstatus_seq`.`id`
+FROM `vtiger_leadstatus_seq` AS `vtiger_leadstatus_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_opportunity_type_seq" EntityType="Self.vtiger_opportunity_type_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_opportunity_type_seq`.`id`
+FROM `vtiger_opportunity_type_seq` AS `vtiger_opportunity_type_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_organizationdetails_seq" EntityType="Self.vtiger_organizationdetails_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_organizationdetails_seq`.`id`
+FROM `vtiger_organizationdetails_seq` AS `vtiger_organizationdetails_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_picklist_seq" EntityType="Self.vtiger_picklist_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_picklist_seq`.`id`
+FROM `vtiger_picklist_seq` AS `vtiger_picklist_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_picklistvalues_seq" EntityType="Self.vtiger_picklistvalues_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_picklistvalues_seq`.`id`
+FROM `vtiger_picklistvalues_seq` AS `vtiger_picklistvalues_seq`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vtiger_rating_seq" EntityType="Self.vtiger_rating_seq" store:Type="Tables" store:Schema="vtigercrm600">
+      <DefiningQuery>SELECT
+`vtiger_rating_seq`.`id`
+FROM `vtiger_rating_seq` AS `vtiger_rating_seq`</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

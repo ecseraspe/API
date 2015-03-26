@@ -1,0 +1,21 @@
+POST http://localhost:26264/token HTTP/1.1
+User-Agent: Fiddler
+Host: localhost:26264
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 59
+
+grant_type=password&username=lk@lk.lk&password=qqqqqq
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 725
+Content-Type: application/json;charset=UTF-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Access-Control-Allow-Origin: *
+X-SourceFiles: =?UTF-8?B?RDpcWW91ZmZlclxCcmFuY2hlc1xEZXZcWW91ZmZlci5BUElcWW91ZmZlci5BUElcdG9rZW4=?=
+X-Powered-By: ASP.NET
+Date: Wed, 31 Dec 2014 06:59:47 GMT
+
+{"access_token":"_m6M8Gm8qnnIyLJ_cNgcR9DbOjtZi1q5ORQxVyvObL7GjcTZY4yKuaIej1eJDrQuTs3Nq2XyVGiqu6-BS_T9z6l5Dg-wASBKSHxy6S_QMYV3zJJCZoU0n9eu6nOay2wgcR4Tn6xMH2Iv-gaXnnDn-gM-K2j4BVHBq5avPlC1_HTdWef8995bh87XqTX0rkDVMMAV8I5y-SF_lzYL49EsiwUuk-uhb9Vah-fVAyQOjjim1fIsuLt5Z2ZP9UNjOQHjAjNZwZSooJ-DPbHNf9ycmjGvTxLON6HKtoN8SvFPgbRPXmWKA0K4LCJsjgYKEtMhEKiORLnQEUEo5j3Z8vy849Amvp_fxHDjLQHQlybxLYBHLGdDk3vVgwwRWSyX0S8ez56bHSP8RSv0edfvhvRVmF2n6xGZDRlSULb-4OZv-WGTI136s9gjIanBJDYdyQFcV-cFtOmL_5I-JNYrDTtoEw","token_type":"bearer","expires_in":863999,"as:client_id":"","userName":"tft@mail.com","userId":"de43cd73-d32e-49ac-858f-de99802ebdad","type":"Company",".issued":"Wed, 31 Dec 2014 06:59:21 GMT",".expires":"Sat, 10 Jan 2015 06:59:21 GMT"}

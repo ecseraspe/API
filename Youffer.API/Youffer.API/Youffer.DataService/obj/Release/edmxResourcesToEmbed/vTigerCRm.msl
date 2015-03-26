@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="vtigercrm600ModelStoreContainer" CdmEntityContainer="vtigercrm600Entities2">
+    <EntitySetMapping Name="vtiger_account">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_account">
+        <MappingFragment StoreEntitySet="vtiger_account">
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="account_no" ColumnName="account_no" />
+          <ScalarProperty Name="accountname" ColumnName="accountname" />
+          <ScalarProperty Name="parentid" ColumnName="parentid" />
+          <ScalarProperty Name="account_type" ColumnName="account_type" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="annualrevenue" ColumnName="annualrevenue" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="ownership" ColumnName="ownership" />
+          <ScalarProperty Name="siccode" ColumnName="siccode" />
+          <ScalarProperty Name="tickersymbol" ColumnName="tickersymbol" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="otherphone" ColumnName="otherphone" />
+          <ScalarProperty Name="email1" ColumnName="email1" />
+          <ScalarProperty Name="email2" ColumnName="email2" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="employees" ColumnName="employees" />
+          <ScalarProperty Name="emailoptout" ColumnName="emailoptout" />
+          <ScalarProperty Name="notify_owner" ColumnName="notify_owner" />
+          <ScalarProperty Name="isconvertedfromlead" ColumnName="isconvertedfromlead" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accountbillads">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accountbillads">
+        <MappingFragment StoreEntitySet="vtiger_accountbillads">
+          <ScalarProperty Name="accountaddressid" ColumnName="accountaddressid" />
+          <ScalarProperty Name="bill_city" ColumnName="bill_city" />
+          <ScalarProperty Name="bill_code" ColumnName="bill_code" />
+          <ScalarProperty Name="bill_country" ColumnName="bill_country" />
+          <ScalarProperty Name="bill_state" ColumnName="bill_state" />
+          <ScalarProperty Name="bill_street" ColumnName="bill_street" />
+          <ScalarProperty Name="bill_pobox" ColumnName="bill_pobox" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accountrating">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accountrating">
+        <MappingFragment StoreEntitySet="vtiger_accountrating">
+          <ScalarProperty Name="accountratingid" ColumnName="accountratingid" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accountscf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accountscf">
+        <MappingFragment StoreEntitySet="vtiger_accountscf">
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="cf_775" ColumnName="cf_775" />
+          <ScalarProperty Name="cf_777" ColumnName="cf_777" />
+          <ScalarProperty Name="cf_779" ColumnName="cf_779" />
+          <ScalarProperty Name="cf_781" ColumnName="cf_781" />
+          <ScalarProperty Name="cf_817" ColumnName="cf_817" />
+          <ScalarProperty Name="cf_819" ColumnName="cf_819" />
+          <ScalarProperty Name="cf_829" ColumnName="cf_829" />
+          <ScalarProperty Name="cf_831" ColumnName="cf_831" />
+          <ScalarProperty Name="cf_833" ColumnName="cf_833" />
+          <ScalarProperty Name="cf_837" ColumnName="cf_837" />
+          <ScalarProperty Name="cf_863" ColumnName="cf_863" />
+          <ScalarProperty Name="cf_887" ColumnName="cf_887" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accountshipads">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accountshipads">
+        <MappingFragment StoreEntitySet="vtiger_accountshipads">
+          <ScalarProperty Name="accountaddressid" ColumnName="accountaddressid" />
+          <ScalarProperty Name="ship_city" ColumnName="ship_city" />
+          <ScalarProperty Name="ship_code" ColumnName="ship_code" />
+          <ScalarProperty Name="ship_country" ColumnName="ship_country" />
+          <ScalarProperty Name="ship_state" ColumnName="ship_state" />
+          <ScalarProperty Name="ship_pobox" ColumnName="ship_pobox" />
+          <ScalarProperty Name="ship_street" ColumnName="ship_street" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accounttype">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accounttype">
+        <MappingFragment StoreEntitySet="vtiger_accounttype">
+          <ScalarProperty Name="accounttypeid" ColumnName="accounttypeid" />
+          <ScalarProperty Name="accounttype" ColumnName="accounttype" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="picklist_valueid" ColumnName="picklist_valueid" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_companynotes">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_companynotes">
+        <MappingFragment StoreEntitySet="vtiger_companynotes">
+          <ScalarProperty Name="companynotesid" ColumnName="companynotesid" />
+          <ScalarProperty Name="companynotesno" ColumnName="companynotesno" />
+          <ScalarProperty Name="companynotes_tks_organisation" ColumnName="companynotes_tks_organisation" />
+          <ScalarProperty Name="companynotes_tks_contact" ColumnName="companynotes_tks_contact" />
+          <ScalarProperty Name="companynotes_tks_note" ColumnName="companynotes_tks_note" />
+          <ScalarProperty Name="companynotes_tks_isdeleted" ColumnName="companynotes_tks_isdeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_companynotescf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_companynotescf">
+        <MappingFragment StoreEntitySet="vtiger_companynotescf">
+          <ScalarProperty Name="companynotesid" ColumnName="companynotesid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_contactaddress">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_contactaddress">
+        <MappingFragment StoreEntitySet="vtiger_contactaddress">
+          <ScalarProperty Name="contactaddressid" ColumnName="contactaddressid" />
+          <ScalarProperty Name="mailingcity" ColumnName="mailingcity" />
+          <ScalarProperty Name="mailingstreet" ColumnName="mailingstreet" />
+          <ScalarProperty Name="mailingcountry" ColumnName="mailingcountry" />
+          <ScalarProperty Name="othercountry" ColumnName="othercountry" />
+          <ScalarProperty Name="mailingstate" ColumnName="mailingstate" />
+          <ScalarProperty Name="mailingpobox" ColumnName="mailingpobox" />
+          <ScalarProperty Name="othercity" ColumnName="othercity" />
+          <ScalarProperty Name="otherstate" ColumnName="otherstate" />
+          <ScalarProperty Name="mailingzip" ColumnName="mailingzip" />
+          <ScalarProperty Name="otherzip" ColumnName="otherzip" />
+          <ScalarProperty Name="otherstreet" ColumnName="otherstreet" />
+          <ScalarProperty Name="otherpobox" ColumnName="otherpobox" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_contactdetails">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_contactdetails">
+        <MappingFragment StoreEntitySet="vtiger_contactdetails">
+          <ScalarProperty Name="contactid" ColumnName="contactid" />
+          <ScalarProperty Name="contact_no" ColumnName="contact_no" />
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="salutation" ColumnName="salutation" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="reportsto" ColumnName="reportsto" />
+          <ScalarProperty Name="training" ColumnName="training" />
+          <ScalarProperty Name="usertype" ColumnName="usertype" />
+          <ScalarProperty Name="contacttype" ColumnName="contacttype" />
+          <ScalarProperty Name="otheremail" ColumnName="otheremail" />
+          <ScalarProperty Name="secondaryemail" ColumnName="secondaryemail" />
+          <ScalarProperty Name="donotcall" ColumnName="donotcall" />
+          <ScalarProperty Name="emailoptout" ColumnName="emailoptout" />
+          <ScalarProperty Name="imagename" ColumnName="imagename" />
+          <ScalarProperty Name="reference" ColumnName="reference" />
+          <ScalarProperty Name="notify_owner" ColumnName="notify_owner" />
+          <ScalarProperty Name="isconvertedfromlead" ColumnName="isconvertedfromlead" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_contactscf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_contactscf">
+        <MappingFragment StoreEntitySet="vtiger_contactscf">
+          <ScalarProperty Name="contactid" ColumnName="contactid" />
+          <ScalarProperty Name="cf_757" ColumnName="cf_757" />
+          <ScalarProperty Name="cf_759" ColumnName="cf_759" />
+          <ScalarProperty Name="cf_761" ColumnName="cf_761" />
+          <ScalarProperty Name="cf_763" ColumnName="cf_763" />
+          <ScalarProperty Name="cf_765" ColumnName="cf_765" />
+          <ScalarProperty Name="cf_795" ColumnName="cf_795" />
+          <ScalarProperty Name="cf_797" ColumnName="cf_797" />
+          <ScalarProperty Name="cf_799" ColumnName="cf_799" />
+          <ScalarProperty Name="cf_815" ColumnName="cf_815" />
+          <ScalarProperty Name="cf_821" ColumnName="cf_821" />
+          <ScalarProperty Name="cf_823" ColumnName="cf_823" />
+          <ScalarProperty Name="cf_835" ColumnName="cf_835" />
+          <ScalarProperty Name="cf_845" ColumnName="cf_845" />
+          <ScalarProperty Name="cf_847" ColumnName="cf_847" />
+          <ScalarProperty Name="cf_859" ColumnName="cf_859" />
+          <ScalarProperty Name="cf_889" ColumnName="cf_889" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_contactsubdetails">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_contactsubdetails">
+        <MappingFragment StoreEntitySet="vtiger_contactsubdetails">
+          <ScalarProperty Name="contactsubscriptionid" ColumnName="contactsubscriptionid" />
+          <ScalarProperty Name="homephone" ColumnName="homephone" />
+          <ScalarProperty Name="otherphone" ColumnName="otherphone" />
+          <ScalarProperty Name="assistant" ColumnName="assistant" />
+          <ScalarProperty Name="assistantphone" ColumnName="assistantphone" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="laststayintouchrequest" ColumnName="laststayintouchrequest" />
+          <ScalarProperty Name="laststayintouchsavedate" ColumnName="laststayintouchsavedate" />
+          <ScalarProperty Name="leadsource" ColumnName="leadsource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_lead_view">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_lead_view">
+        <MappingFragment StoreEntitySet="vtiger_lead_view">
+          <ScalarProperty Name="lead_viewid" ColumnName="lead_viewid" />
+          <ScalarProperty Name="lead_view" ColumnName="lead_view" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadaddress">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadaddress">
+        <MappingFragment StoreEntitySet="vtiger_leadaddress">
+          <ScalarProperty Name="leadaddressid" ColumnName="leadaddressid" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="pobox" ColumnName="pobox" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="lane" ColumnName="lane" />
+          <ScalarProperty Name="leadaddresstype" ColumnName="leadaddresstype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leaddetails">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leaddetails">
+        <MappingFragment StoreEntitySet="vtiger_leaddetails">
+          <ScalarProperty Name="leadid" ColumnName="leadid" />
+          <ScalarProperty Name="lead_no" ColumnName="lead_no" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="interest" ColumnName="interest" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="salutation" ColumnName="salutation" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="annualrevenue" ColumnName="annualrevenue" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="campaign" ColumnName="campaign" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="leadstatus" ColumnName="leadstatus" />
+          <ScalarProperty Name="leadsource" ColumnName="leadsource" />
+          <ScalarProperty Name="converted" ColumnName="converted" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+          <ScalarProperty Name="licencekeystatus" ColumnName="licencekeystatus" />
+          <ScalarProperty Name="space" ColumnName="space" />
+          <ScalarProperty Name="comments" ColumnName="comments" />
+          <ScalarProperty Name="priority" ColumnName="priority" />
+          <ScalarProperty Name="demorequest" ColumnName="demorequest" />
+          <ScalarProperty Name="partnercontact" ColumnName="partnercontact" />
+          <ScalarProperty Name="productversion" ColumnName="productversion" />
+          <ScalarProperty Name="product" ColumnName="product" />
+          <ScalarProperty Name="maildate" ColumnName="maildate" />
+          <ScalarProperty Name="nextstepdate" ColumnName="nextstepdate" />
+          <ScalarProperty Name="fundingsituation" ColumnName="fundingsituation" />
+          <ScalarProperty Name="purpose" ColumnName="purpose" />
+          <ScalarProperty Name="evaluationstatus" ColumnName="evaluationstatus" />
+          <ScalarProperty Name="transferdate" ColumnName="transferdate" />
+          <ScalarProperty Name="revenuetype" ColumnName="revenuetype" />
+          <ScalarProperty Name="noofemployees" ColumnName="noofemployees" />
+          <ScalarProperty Name="secondaryemail" ColumnName="secondaryemail" />
+          <ScalarProperty Name="assignleadchk" ColumnName="assignleadchk" />
+          <ScalarProperty Name="emailoptout" ColumnName="emailoptout" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadscf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadscf">
+        <MappingFragment StoreEntitySet="vtiger_leadscf">
+          <ScalarProperty Name="leadid" ColumnName="leadid" />
+          <ScalarProperty Name="cf_751" ColumnName="cf_751" />
+          <ScalarProperty Name="cf_753" ColumnName="cf_753" />
+          <ScalarProperty Name="cf_767" ColumnName="cf_767" />
+          <ScalarProperty Name="cf_769" ColumnName="cf_769" />
+          <ScalarProperty Name="cf_771" ColumnName="cf_771" />
+          <ScalarProperty Name="cf_773" ColumnName="cf_773" />
+          <ScalarProperty Name="cf_783" ColumnName="cf_783" />
+          <ScalarProperty Name="cf_785" ColumnName="cf_785" />
+          <ScalarProperty Name="cf_787" ColumnName="cf_787" />
+          <ScalarProperty Name="cf_789" ColumnName="cf_789" />
+          <ScalarProperty Name="cf_791" ColumnName="cf_791" />
+          <ScalarProperty Name="cf_793" ColumnName="cf_793" />
+          <ScalarProperty Name="cf_803" ColumnName="cf_803" />
+          <ScalarProperty Name="cf_807" ColumnName="cf_807" />
+          <ScalarProperty Name="cf_809" ColumnName="cf_809" />
+          <ScalarProperty Name="cf_813" ColumnName="cf_813" />
+          <ScalarProperty Name="cf_825" ColumnName="cf_825" />
+          <ScalarProperty Name="cf_827" ColumnName="cf_827" />
+          <ScalarProperty Name="cf_849" ColumnName="cf_849" />
+          <ScalarProperty Name="cf_851" ColumnName="cf_851" />
+          <ScalarProperty Name="cf_861" ColumnName="cf_861" />
+          <ScalarProperty Name="cf_885" ColumnName="cf_885" />
+          <ScalarProperty Name="cf_891" ColumnName="cf_891" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadsource">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadsource">
+        <MappingFragment StoreEntitySet="vtiger_leadsource">
+          <ScalarProperty Name="leadsourceid" ColumnName="leadsourceid" />
+          <ScalarProperty Name="leadsource" ColumnName="leadsource" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="picklist_valueid" ColumnName="picklist_valueid" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadstage">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadstage">
+        <MappingFragment StoreEntitySet="vtiger_leadstage">
+          <ScalarProperty Name="leadstageid" ColumnName="leadstageid" />
+          <ScalarProperty Name="stage" ColumnName="stage" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadstatus">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadstatus">
+        <MappingFragment StoreEntitySet="vtiger_leadstatus">
+          <ScalarProperty Name="leadstatusid" ColumnName="leadstatusid" />
+          <ScalarProperty Name="leadstatus" ColumnName="leadstatus" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="picklist_valueid" ColumnName="picklist_valueid" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadsubdetails">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadsubdetails">
+        <MappingFragment StoreEntitySet="vtiger_leadsubdetails">
+          <ScalarProperty Name="leadsubscriptionid" ColumnName="leadsubscriptionid" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="callornot" ColumnName="callornot" />
+          <ScalarProperty Name="readornot" ColumnName="readornot" />
+          <ScalarProperty Name="empct" ColumnName="empct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_notes">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_notes">
+        <MappingFragment StoreEntitySet="vtiger_notes">
+          <ScalarProperty Name="notesid" ColumnName="notesid" />
+          <ScalarProperty Name="note_no" ColumnName="note_no" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="notecontent" ColumnName="notecontent" />
+          <ScalarProperty Name="folderid" ColumnName="folderid" />
+          <ScalarProperty Name="filetype" ColumnName="filetype" />
+          <ScalarProperty Name="filelocationtype" ColumnName="filelocationtype" />
+          <ScalarProperty Name="filedownloadcount" ColumnName="filedownloadcount" />
+          <ScalarProperty Name="filestatus" ColumnName="filestatus" />
+          <ScalarProperty Name="filesize" ColumnName="filesize" />
+          <ScalarProperty Name="fileversion" ColumnName="fileversion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_notescf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_notescf">
+        <MappingFragment StoreEntitySet="vtiger_notescf">
+          <ScalarProperty Name="notesid" ColumnName="notesid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_opportunity_type">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_opportunity_type">
+        <MappingFragment StoreEntitySet="vtiger_opportunity_type">
+          <ScalarProperty Name="opptypeid" ColumnName="opptypeid" />
+          <ScalarProperty Name="opportunity_type" ColumnName="opportunity_type" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="picklist_valueid" ColumnName="picklist_valueid" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_opportunitystage">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_opportunitystage">
+        <MappingFragment StoreEntitySet="vtiger_opportunitystage">
+          <ScalarProperty Name="potstageid" ColumnName="potstageid" />
+          <ScalarProperty Name="stage" ColumnName="stage" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="probability" ColumnName="probability" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_org_share_action_mapping">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_org_share_action_mapping">
+        <MappingFragment StoreEntitySet="vtiger_org_share_action_mapping">
+          <ScalarProperty Name="share_action_id" ColumnName="share_action_id" />
+          <ScalarProperty Name="share_action_name" ColumnName="share_action_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_org_share_action2tab">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_org_share_action2tab">
+        <MappingFragment StoreEntitySet="vtiger_org_share_action2tab">
+          <ScalarProperty Name="share_action_id" ColumnName="share_action_id" />
+          <ScalarProperty Name="tabid" ColumnName="tabid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_organizationdetails">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_organizationdetails">
+        <MappingFragment StoreEntitySet="vtiger_organizationdetails">
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="organizationname" ColumnName="organizationname" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="logoname" ColumnName="logoname" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="vatid" ColumnName="vatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_picklist">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_picklist">
+        <MappingFragment StoreEntitySet="vtiger_picklist">
+          <ScalarProperty Name="picklistid" ColumnName="picklistid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_picklist_dependency">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_picklist_dependency">
+        <MappingFragment StoreEntitySet="vtiger_picklist_dependency">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tabid" ColumnName="tabid" />
+          <ScalarProperty Name="sourcefield" ColumnName="sourcefield" />
+          <ScalarProperty Name="targetfield" ColumnName="targetfield" />
+          <ScalarProperty Name="sourcevalue" ColumnName="sourcevalue" />
+          <ScalarProperty Name="targetvalues" ColumnName="targetvalues" />
+          <ScalarProperty Name="criteria" ColumnName="criteria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_potential">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_potential">
+        <MappingFragment StoreEntitySet="vtiger_potential">
+          <ScalarProperty Name="potentialid" ColumnName="potentialid" />
+          <ScalarProperty Name="potential_no" ColumnName="potential_no" />
+          <ScalarProperty Name="related_to" ColumnName="related_to" />
+          <ScalarProperty Name="potentialname" ColumnName="potentialname" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="closingdate" ColumnName="closingdate" />
+          <ScalarProperty Name="typeofrevenue" ColumnName="typeofrevenue" />
+          <ScalarProperty Name="nextstep" ColumnName="nextstep" />
+          <ScalarProperty Name="private" ColumnName="private" />
+          <ScalarProperty Name="probability" ColumnName="probability" />
+          <ScalarProperty Name="campaignid" ColumnName="campaignid" />
+          <ScalarProperty Name="sales_stage" ColumnName="sales_stage" />
+          <ScalarProperty Name="potentialtype" ColumnName="potentialtype" />
+          <ScalarProperty Name="leadsource" ColumnName="leadsource" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="productversion" ColumnName="productversion" />
+          <ScalarProperty Name="quotationref" ColumnName="quotationref" />
+          <ScalarProperty Name="partnercontact" ColumnName="partnercontact" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="runtimefee" ColumnName="runtimefee" />
+          <ScalarProperty Name="followupdate" ColumnName="followupdate" />
+          <ScalarProperty Name="evaluationstatus" ColumnName="evaluationstatus" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="forecastcategory" ColumnName="forecastcategory" />
+          <ScalarProperty Name="outcomeanalysis" ColumnName="outcomeanalysis" />
+          <ScalarProperty Name="forecast_amount" ColumnName="forecast_amount" />
+          <ScalarProperty Name="isconvertedfromlead" ColumnName="isconvertedfromlead" />
+          <ScalarProperty Name="contact_id" ColumnName="contact_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_potentialscf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_potentialscf">
+        <MappingFragment StoreEntitySet="vtiger_potentialscf">
+          <ScalarProperty Name="potentialid" ColumnName="potentialid" />
+          <ScalarProperty Name="cf_841" ColumnName="cf_841" />
+          <ScalarProperty Name="cf_843" ColumnName="cf_843" />
+          <ScalarProperty Name="cf_853" ColumnName="cf_853" />
+          <ScalarProperty Name="cf_855" ColumnName="cf_855" />
+          <ScalarProperty Name="cf_857" ColumnName="cf_857" />
+          <ScalarProperty Name="cf_883" ColumnName="cf_883" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_rating">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_rating">
+        <MappingFragment StoreEntitySet="vtiger_rating">
+          <ScalarProperty Name="rating_id" ColumnName="rating_id" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="presence" ColumnName="presence" />
+          <ScalarProperty Name="picklist_valueid" ColumnName="picklist_valueid" />
+          <ScalarProperty Name="sortorderid" ColumnName="sortorderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_reviewforuser">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_reviewforuser">
+        <MappingFragment StoreEntitySet="vtiger_reviewforuser">
+          <ScalarProperty Name="reviewforuserid" ColumnName="reviewforuserid" />
+          <ScalarProperty Name="reviewforuserno" ColumnName="reviewforuserno" />
+          <ScalarProperty Name="reviewforuser_tks_contact" ColumnName="reviewforuser_tks_contact" />
+          <ScalarProperty Name="reviewforuser_tks_organisation" ColumnName="reviewforuser_tks_organisation" />
+          <ScalarProperty Name="reviewforuser_tks_rating" ColumnName="reviewforuser_tks_rating" />
+          <ScalarProperty Name="reviewforuser_tks_feedbacktext" ColumnName="reviewforuser_tks_feedbacktext" />
+          <ScalarProperty Name="reviewforuser_tks_interestname" ColumnName="reviewforuser_tks_interestname" />
+          <ScalarProperty Name="reviewforuser_tks_deleted" ColumnName="reviewforuser_tks_deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_reviewforusercf">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_reviewforusercf">
+        <MappingFragment StoreEntitySet="vtiger_reviewforusercf">
+          <ScalarProperty Name="reviewforuserid" ColumnName="reviewforuserid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_accounttype_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_accounttype_seq">
+        <MappingFragment StoreEntitySet="vtiger_accounttype_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_lead_view_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_lead_view_seq">
+        <MappingFragment StoreEntitySet="vtiger_lead_view_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadsource_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadsource_seq">
+        <MappingFragment StoreEntitySet="vtiger_leadsource_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_leadstatus_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_leadstatus_seq">
+        <MappingFragment StoreEntitySet="vtiger_leadstatus_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_opportunity_type_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_opportunity_type_seq">
+        <MappingFragment StoreEntitySet="vtiger_opportunity_type_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_organizationdetails_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_organizationdetails_seq">
+        <MappingFragment StoreEntitySet="vtiger_organizationdetails_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_picklist_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_picklist_seq">
+        <MappingFragment StoreEntitySet="vtiger_picklist_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_picklistvalues_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_picklistvalues_seq">
+        <MappingFragment StoreEntitySet="vtiger_picklistvalues_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vtiger_rating_seq">
+      <EntityTypeMapping TypeName="vtigercrm600Model.vtiger_rating_seq">
+        <MappingFragment StoreEntitySet="vtiger_rating_seq">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

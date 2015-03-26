@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vtigercrm600Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="vtiger_account">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="Int32" Nullable="false" />
+    <Property Name="account_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="accountname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="parentid" Type="Int32" />
+    <Property Name="account_type" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="industry" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="annualrevenue" Type="Decimal" />
+    <Property Name="rating" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ownership" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="siccode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tickersymbol" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="otherphone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="email1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="email2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="website" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="employees" Type="Int32" />
+    <Property Name="emailoptout" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="notify_owner" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="isconvertedfromlead" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accountbillads">
+    <Key>
+      <PropertyRef Name="accountaddressid" />
+    </Key>
+    <Property Name="accountaddressid" Type="Int32" Nullable="false" />
+    <Property Name="bill_city" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="bill_code" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="bill_country" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="bill_state" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="bill_street" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="bill_pobox" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accountrating">
+    <Key>
+      <PropertyRef Name="accountratingid" />
+    </Key>
+    <Property Name="accountratingid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rating" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accountscf">
+    <Key>
+      <PropertyRef Name="accountid" />
+    </Key>
+    <Property Name="accountid" Type="Int32" Nullable="false" />
+    <Property Name="cf_775" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="cf_777" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="cf_779" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cf_781" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_817" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_819" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_829" Type="Decimal" />
+    <Property Name="cf_831" Type="Decimal" />
+    <Property Name="cf_833" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cf_837" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_863" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_887" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accountshipads">
+    <Key>
+      <PropertyRef Name="accountaddressid" />
+    </Key>
+    <Property Name="accountaddressid" Type="Int32" Nullable="false" />
+    <Property Name="ship_city" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ship_code" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ship_country" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ship_state" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ship_pobox" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ship_street" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accounttype">
+    <Key>
+      <PropertyRef Name="accounttypeid" />
+    </Key>
+    <Property Name="accounttypeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="accounttype" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="picklist_valueid" Type="Int32" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_companynotes">
+    <Key>
+      <PropertyRef Name="companynotesid" />
+    </Key>
+    <Property Name="companynotesid" Type="Int32" Nullable="false" />
+    <Property Name="companynotesno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="companynotes_tks_organisation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="companynotes_tks_contact" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="companynotes_tks_note" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="companynotes_tks_isdeleted" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_companynotescf">
+    <Key>
+      <PropertyRef Name="companynotesid" />
+    </Key>
+    <Property Name="companynotesid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_contactaddress">
+    <Key>
+      <PropertyRef Name="contactaddressid" />
+    </Key>
+    <Property Name="contactaddressid" Type="Int32" Nullable="false" />
+    <Property Name="mailingcity" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="mailingstreet" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="mailingcountry" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="othercountry" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="mailingstate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="mailingpobox" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="othercity" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="otherstate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mailingzip" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="otherzip" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="otherstreet" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="otherpobox" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_contactdetails">
+    <Key>
+      <PropertyRef Name="contactid" />
+    </Key>
+    <Property Name="contactid" Type="Int32" Nullable="false" />
+    <Property Name="contact_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="accountid" Type="Int32" />
+    <Property Name="salutation" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="firstname" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="lastname" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="department" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="reportsto" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="training" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="usertype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contacttype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="otheremail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="secondaryemail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="donotcall" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="emailoptout" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="imagename" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="reference" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="notify_owner" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="isconvertedfromlead" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_contactscf">
+    <Key>
+      <PropertyRef Name="contactid" />
+    </Key>
+    <Property Name="contactid" Type="Int32" Nullable="false" />
+    <Property Name="cf_757" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_759" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_761" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cf_763" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_765" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cf_795" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_797" Type="Time" />
+    <Property Name="cf_799" Type="Time" />
+    <Property Name="cf_815" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_821" Type="Decimal" />
+    <Property Name="cf_823" Type="Decimal" />
+    <Property Name="cf_835" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_845" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_847" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cf_859" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_889" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_contactsubdetails">
+    <Key>
+      <PropertyRef Name="contactsubscriptionid" />
+    </Key>
+    <Property Name="contactsubscriptionid" Type="Int32" Nullable="false" />
+    <Property Name="homephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="otherphone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="assistant" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="assistantphone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="birthday" Type="DateTime" />
+    <Property Name="laststayintouchrequest" Type="Int32" />
+    <Property Name="laststayintouchsavedate" Type="Int32" />
+    <Property Name="leadsource" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_lead_view">
+    <Key>
+      <PropertyRef Name="lead_viewid" />
+    </Key>
+    <Property Name="lead_viewid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="lead_view" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadaddress">
+    <Key>
+      <PropertyRef Name="leadaddressid" />
+    </Key>
+    <Property Name="leadaddressid" Type="Int32" Nullable="false" />
+    <Property Name="city" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="code" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="pobox" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="country" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lane" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="leadaddresstype" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leaddetails">
+    <Key>
+      <PropertyRef Name="leadid" />
+    </Key>
+    <Property Name="leadid" Type="Int32" Nullable="false" />
+    <Property Name="lead_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="interest" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="firstname" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="salutation" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="lastname" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="company" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="annualrevenue" Type="Decimal" />
+    <Property Name="industry" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="campaign" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="rating" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="leadstatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="leadsource" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="converted" Type="Int32" />
+    <Property Name="designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="licencekeystatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="space" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="comments" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="priority" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="demorequest" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="partnercontact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="productversion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="product" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="maildate" Type="DateTime" />
+    <Property Name="nextstepdate" Type="DateTime" />
+    <Property Name="fundingsituation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="purpose" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="evaluationstatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="transferdate" Type="DateTime" />
+    <Property Name="revenuetype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="noofemployees" Type="Int32" />
+    <Property Name="secondaryemail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="assignleadchk" Type="Int32" />
+    <Property Name="emailoptout" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadscf">
+    <Key>
+      <PropertyRef Name="leadid" />
+    </Key>
+    <Property Name="leadid" Type="Int32" Nullable="false" />
+    <Property Name="cf_751" Type="Time" />
+    <Property Name="cf_753" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_767" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_769" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="cf_771" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="cf_773" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="cf_783" Type="DateTime" />
+    <Property Name="cf_785" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_787" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_789" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cf_791" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_793" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cf_803" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_807" Type="Time" />
+    <Property Name="cf_809" Type="Time" />
+    <Property Name="cf_813" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_825" Type="Decimal" />
+    <Property Name="cf_827" Type="Decimal" />
+    <Property Name="cf_849" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_851" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cf_861" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cf_885" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_891" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadsource">
+    <Key>
+      <PropertyRef Name="leadsourceid" />
+    </Key>
+    <Property Name="leadsourceid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="leadsource" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="picklist_valueid" Type="Int32" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_leadstage">
+    <Key>
+      <PropertyRef Name="leadstageid" />
+    </Key>
+    <Property Name="leadstageid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadstatus">
+    <Key>
+      <PropertyRef Name="leadstatusid" />
+    </Key>
+    <Property Name="leadstatusid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="leadstatus" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="picklist_valueid" Type="Int32" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_leadsubdetails">
+    <Key>
+      <PropertyRef Name="leadsubscriptionid" />
+    </Key>
+    <Property Name="leadsubscriptionid" Type="Int32" Nullable="false" />
+    <Property Name="website" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="callornot" Type="Int32" />
+    <Property Name="readornot" Type="Int32" />
+    <Property Name="empct" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_notes">
+    <Key>
+      <PropertyRef Name="notesid" />
+    </Key>
+    <Property Name="notesid" Type="Int32" Nullable="false" />
+    <Property Name="note_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="filename" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="notecontent" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="folderid" Type="Int32" Nullable="false" />
+    <Property Name="filetype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="filelocationtype" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="filedownloadcount" Type="Int32" />
+    <Property Name="filestatus" Type="Int32" />
+    <Property Name="filesize" Type="Int32" Nullable="false" />
+    <Property Name="fileversion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_notescf">
+    <Key>
+      <PropertyRef Name="notesid" />
+    </Key>
+    <Property Name="notesid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_opportunity_type">
+    <Key>
+      <PropertyRef Name="opptypeid" />
+    </Key>
+    <Property Name="opptypeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="opportunity_type" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="picklist_valueid" Type="Int32" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_opportunitystage">
+    <Key>
+      <PropertyRef Name="potstageid" />
+    </Key>
+    <Property Name="potstageid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" Nullable="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="probability" Type="Decimal" />
+  </EntityType>
+  <EntityType Name="vtiger_org_share_action_mapping">
+    <Key>
+      <PropertyRef Name="share_action_id" />
+    </Key>
+    <Property Name="share_action_id" Type="Int32" Nullable="false" />
+    <Property Name="share_action_name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_org_share_action2tab">
+    <Key>
+      <PropertyRef Name="share_action_id" />
+      <PropertyRef Name="tabid" />
+    </Key>
+    <Property Name="share_action_id" Type="Int32" Nullable="false" />
+    <Property Name="tabid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_organizationdetails">
+    <Key>
+      <PropertyRef Name="organization_id" />
+    </Key>
+    <Property Name="organization_id" Type="Int32" Nullable="false" />
+    <Property Name="organizationname" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="city" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="country" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="code" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="website" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="logoname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logo" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="vatid" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklist">
+    <Key>
+      <PropertyRef Name="picklistid" />
+    </Key>
+    <Property Name="picklistid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklist_dependency">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="tabid" Type="Int32" Nullable="false" />
+    <Property Name="sourcefield" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="targetfield" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="sourcevalue" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="targetvalues" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="criteria" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_potential">
+    <Key>
+      <PropertyRef Name="potentialid" />
+    </Key>
+    <Property Name="potentialid" Type="Int32" Nullable="false" />
+    <Property Name="potential_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="related_to" Type="Int32" />
+    <Property Name="potentialname" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="amount" Type="Decimal" />
+    <Property Name="currency" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="closingdate" Type="DateTime" />
+    <Property Name="typeofrevenue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nextstep" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="private" Type="Int32" />
+    <Property Name="probability" Type="Decimal" />
+    <Property Name="campaignid" Type="Int32" />
+    <Property Name="sales_stage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="potentialtype" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="leadsource" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="productid" Type="Int32" />
+    <Property Name="productversion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="quotationref" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="partnercontact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="runtimefee" Type="Int32" />
+    <Property Name="followupdate" Type="DateTime" />
+    <Property Name="evaluationstatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="forecastcategory" Type="Int32" />
+    <Property Name="outcomeanalysis" Type="Int32" />
+    <Property Name="forecast_amount" Type="Decimal" />
+    <Property Name="isconvertedfromlead" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="contact_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_potentialscf">
+    <Key>
+      <PropertyRef Name="potentialid" />
+    </Key>
+    <Property Name="potentialid" Type="Int32" Nullable="false" />
+    <Property Name="cf_841" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_843" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_853" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cf_855" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_857" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="cf_883" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_rating">
+    <Key>
+      <PropertyRef Name="rating_id" />
+    </Key>
+    <Property Name="rating_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rating" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="presence" Type="Int32" Nullable="false" />
+    <Property Name="picklist_valueid" Type="Int32" Nullable="false" />
+    <Property Name="sortorderid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vtiger_reviewforuser">
+    <Key>
+      <PropertyRef Name="reviewforuserid" />
+    </Key>
+    <Property Name="reviewforuserid" Type="Int32" Nullable="false" />
+    <Property Name="reviewforuserno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="reviewforuser_tks_contact" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="reviewforuser_tks_organisation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="reviewforuser_tks_rating" Type="Decimal" />
+    <Property Name="reviewforuser_tks_feedbacktext" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="reviewforuser_tks_interestname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reviewforuser_tks_deleted" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vtiger_reviewforusercf">
+    <Key>
+      <PropertyRef Name="reviewforuserid" />
+    </Key>
+    <Property Name="reviewforuserid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_accounttype_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_lead_view_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadsource_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_leadstatus_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_opportunity_type_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_organizationdetails_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklist_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_picklistvalues_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vtiger_rating_seq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="vtigercrm600Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vtiger_account" EntityType="Self.vtiger_account" />
+    <EntitySet Name="vtiger_accountbillads" EntityType="Self.vtiger_accountbillads" />
+    <EntitySet Name="vtiger_accountrating" EntityType="Self.vtiger_accountrating" />
+    <EntitySet Name="vtiger_accountscf" EntityType="Self.vtiger_accountscf" />
+    <EntitySet Name="vtiger_accountshipads" EntityType="Self.vtiger_accountshipads" />
+    <EntitySet Name="vtiger_accounttype" EntityType="Self.vtiger_accounttype" />
+    <EntitySet Name="vtiger_companynotes" EntityType="Self.vtiger_companynotes" />
+    <EntitySet Name="vtiger_companynotescf" EntityType="Self.vtiger_companynotescf" />
+    <EntitySet Name="vtiger_contactaddress" EntityType="Self.vtiger_contactaddress" />
+    <EntitySet Name="vtiger_contactdetails" EntityType="Self.vtiger_contactdetails" />
+    <EntitySet Name="vtiger_contactscf" EntityType="Self.vtiger_contactscf" />
+    <EntitySet Name="vtiger_contactsubdetails" EntityType="Self.vtiger_contactsubdetails" />
+    <EntitySet Name="vtiger_lead_view" EntityType="Self.vtiger_lead_view" />
+    <EntitySet Name="vtiger_leadaddress" EntityType="Self.vtiger_leadaddress" />
+    <EntitySet Name="vtiger_leaddetails" EntityType="Self.vtiger_leaddetails" />
+    <EntitySet Name="vtiger_leadscf" EntityType="Self.vtiger_leadscf" />
+    <EntitySet Name="vtiger_leadsource" EntityType="Self.vtiger_leadsource" />
+    <EntitySet Name="vtiger_leadstage" EntityType="Self.vtiger_leadstage" />
+    <EntitySet Name="vtiger_leadstatus" EntityType="Self.vtiger_leadstatus" />
+    <EntitySet Name="vtiger_leadsubdetails" EntityType="Self.vtiger_leadsubdetails" />
+    <EntitySet Name="vtiger_notes" EntityType="Self.vtiger_notes" />
+    <EntitySet Name="vtiger_notescf" EntityType="Self.vtiger_notescf" />
+    <EntitySet Name="vtiger_opportunity_type" EntityType="Self.vtiger_opportunity_type" />
+    <EntitySet Name="vtiger_opportunitystage" EntityType="Self.vtiger_opportunitystage" />
+    <EntitySet Name="vtiger_org_share_action_mapping" EntityType="Self.vtiger_org_share_action_mapping" />
+    <EntitySet Name="vtiger_org_share_action2tab" EntityType="Self.vtiger_org_share_action2tab" />
+    <EntitySet Name="vtiger_organizationdetails" EntityType="Self.vtiger_organizationdetails" />
+    <EntitySet Name="vtiger_picklist" EntityType="Self.vtiger_picklist" />
+    <EntitySet Name="vtiger_picklist_dependency" EntityType="Self.vtiger_picklist_dependency" />
+    <EntitySet Name="vtiger_potential" EntityType="Self.vtiger_potential" />
+    <EntitySet Name="vtiger_potentialscf" EntityType="Self.vtiger_potentialscf" />
+    <EntitySet Name="vtiger_rating" EntityType="Self.vtiger_rating" />
+    <EntitySet Name="vtiger_reviewforuser" EntityType="Self.vtiger_reviewforuser" />
+    <EntitySet Name="vtiger_reviewforusercf" EntityType="Self.vtiger_reviewforusercf" />
+    <EntitySet Name="vtiger_accounttype_seq" EntityType="Self.vtiger_accounttype_seq" />
+    <EntitySet Name="vtiger_lead_view_seq" EntityType="Self.vtiger_lead_view_seq" />
+    <EntitySet Name="vtiger_leadsource_seq" EntityType="Self.vtiger_leadsource_seq" />
+    <EntitySet Name="vtiger_leadstatus_seq" EntityType="Self.vtiger_leadstatus_seq" />
+    <EntitySet Name="vtiger_opportunity_type_seq" EntityType="Self.vtiger_opportunity_type_seq" />
+    <EntitySet Name="vtiger_organizationdetails_seq" EntityType="Self.vtiger_organizationdetails_seq" />
+    <EntitySet Name="vtiger_picklist_seq" EntityType="Self.vtiger_picklist_seq" />
+    <EntitySet Name="vtiger_picklistvalues_seq" EntityType="Self.vtiger_picklistvalues_seq" />
+    <EntitySet Name="vtiger_rating_seq" EntityType="Self.vtiger_rating_seq" />
+  </EntityContainer>
+</Schema>

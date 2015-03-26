@@ -1,0 +1,9 @@
+D:\NewProject\Youffer.API\Youffer.DataService.Tests\bin\Debug\Youffer.DataService.Tests.dll
+D:\NewProject\Youffer.API\Youffer.DataService.Tests\bin\Debug\Youffer.DataService.Tests.pdb
+D:\NewProject\Youffer.API\Youffer.DataService.Tests\obj\Debug\Youffer.DataService.Tests.dll
+D:\NewProject\Youffer.API\Youffer.DataService.Tests\obj\Debug\Youffer.DataService.Tests.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.DataService.Tests\bin\Debug\Youffer.DataService.Tests.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.DataService.Tests\bin\Debug\Youffer.DataService.Tests.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.DataService.Tests\obj\Debug\Youffer.DataService.Tests.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.DataService.Tests\obj\Debug\Youffer.DataService.Tests.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.DataService.Tests\obj\Debug\Youffer.DataService.Tests.pdb

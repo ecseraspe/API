@@ -1,0 +1,73 @@
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll.config
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.pdb
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.dll
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.pdb
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\NewProject\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.csprojResolveAssemblyReference.cache
+D:\NewProject\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.dll
+D:\NewProject\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll.config
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Jayrock.Json.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll.config
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Jayrock.Json.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.csprojResolveAssemblyReference.cache
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Common.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Jayrock.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.CRM.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Youffer.Resources.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.Common\obj\Debug\Youffer.Common.pdb

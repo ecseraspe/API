@@ -1,0 +1,45 @@
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.Json.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.Json.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.csprojResolveAssemblyReference.cache
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.CRM.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Jayrock.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Youffer.Resources.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.CRM\obj\Debug\Youffer.CRM.pdb

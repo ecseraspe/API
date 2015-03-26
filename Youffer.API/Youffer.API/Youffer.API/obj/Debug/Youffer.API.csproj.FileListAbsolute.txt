@@ -1,0 +1,437 @@
+D:\NewProject\Youffer.API\Youffer.API\bin\AutoMapper.Net4.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.API.dll.config
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.API.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.API.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\Antlr3.Runtime.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Web.Infrastructure.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Newtonsoft.Json.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Owin.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.Net4.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.Web.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Cors.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Helpers.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Mvc.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Optimization.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Razor.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\WebActivatorEx.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\WebGrease.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Common.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.DataService.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Framework.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Resources.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\AutoMapper.dll
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Common.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.DataService.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Framework.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\Youffer.Resources.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.Net4.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\StructureMap.Web.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Newtonsoft.Json.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Helpers.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Mvc.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Optimization.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.Razor.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.xml
+D:\NewProject\Youffer.API\Youffer.API\bin\Antlr3.Runtime.pdb
+D:\NewProject\Youffer.API\Youffer.API\bin\AutoMapper.xml
+D:\NewProject\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csprojResolveAssemblyReference.cache
+D:\NewProject\Youffer.API\Youffer.API\obj\Debug\Youffer.API.dll
+D:\NewProject\Youffer.API\Youffer.API\obj\Debug\Youffer.API.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.API.dll.config
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.API.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.API.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Antlr3.Runtime.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Common.Logging.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Facebook.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\MySql.Data.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\mysql.data.entity.EF6.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\MySql.Web.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Newtonsoft.Json.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Owin.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Amazon.Adm.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Android.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Apple.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Blackberry.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Core.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.FirefoxOS.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Google.Chrome.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.Windows.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\PushSharp.WindowsPhone.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Quartz.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.Net4.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.Web.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Cors.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Helpers.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Mvc.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Optimization.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Razor.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\WebActivatorEx.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\WebGrease.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Common.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.CRM.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.DataService.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Framework.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Resources.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Jayrock.Json.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Plivo.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\AutoMapper.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\RestSharp.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Common.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.CRM.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.DataService.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Framework.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Youffer.Resources.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Common.Logging.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Common.Logging.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Facebook.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Newtonsoft.Json.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Quartz.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Quartz.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.Net4.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\StructureMap.Web.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Helpers.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Mvc.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Razor.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\System.Web.Optimization.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\Antlr3.Runtime.pdb
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\bin\AutoMapper.xml
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csproj.App.config
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csprojResolveAssemblyReference.cache
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\obj\Debug\Youffer.API.dll
+D:\Youffer\Branches\Dev\Youffer.API\Youffer.API\obj\Debug\Youffer.API.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.dll.config
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Antlr3.Runtime.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Facebook.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\mysql.data.entity.EF6.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Newtonsoft.Json.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Owin.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PayPalCoreSDK.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Amazon.Adm.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Android.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Apple.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Blackberry.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Core.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.FirefoxOS.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Google.Chrome.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Windows.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.WindowsPhone.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\RestApiSDK.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Net4.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Web.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Cors.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Helpers.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Mvc.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Optimization.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Razor.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\WebActivatorEx.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\WebGrease.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Common.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.CRM.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.DataService.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Framework.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Resources.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Sms.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Jayrock.Json.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.GeoIP2.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\AutoMapper.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Plivo.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.Db.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Common.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.CRM.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.DataService.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Framework.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Resources.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Sms.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Facebook.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Newtonsoft.Json.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Net4.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Web.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Helpers.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Mvc.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Razor.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Optimization.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Antlr3.Runtime.pdb
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.GeoIP2.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\AutoMapper.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.Db.xml
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csproj.App.config
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csprojResolveAssemblyReference.cache
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.dll
+C:\Dev\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.dll.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.API.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Antlr3.Runtime.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Facebook.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\mysql.data.entity.EF6.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PayPalCoreSDK.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Amazon.Adm.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Android.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Apple.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Blackberry.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.FirefoxOS.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Google.Chrome.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.Windows.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\PushSharp.WindowsPhone.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\RestApiSDK.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Net4.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Web.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Cors.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Optimization.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\WebActivatorEx.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\WebGrease.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Common.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.CRM.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.DataService.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Framework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Sms.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Jayrock.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.GeoIP2.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\AutoMapper.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Plivo.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.Db.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Common.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.CRM.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.DataService.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Framework.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Resources.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Youffer.Sms.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Common.Logging.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Facebook.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Cors.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Quartz.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Net4.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\StructureMap.Web.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Extensions.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Net.Http.Primitives.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.Owin.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\System.Web.Optimization.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\Antlr3.Runtime.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.GeoIP2.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\AutoMapper.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\bin\MaxMind.Db.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csproj.App.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Youffer.API\Youffer.API\Youffer.API\obj\Debug\Youffer.API.pdb
